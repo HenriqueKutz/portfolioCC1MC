@@ -1,0 +1,51 @@
+@font-face {
+    font-family: Poppins;
+    src: url(../portifolioCC1MC-main/fontes/Poppins-Light.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins, sans-serif;
+}
+
+body {
+    background: linear-gradient( 75deg, #2CB1E6, #91704C);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    height: 80px;
+    padding: 0 5%;
+    align-items: center;
+}
+
+header h1 {
+    font-size: 50px;
+}
+
+header nav {
+    display: flex;
+    gap: 250px;
+}
+
+header nav a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 8px 16px;
+    border-radius: 99px;
+    transition: 0.3s;
+    color: black;
+}
+
+header nav a:hover {
+    background: black;
+    color: white;
+}
+header nav a:hover > a:not(:hover) {
+    background: none;
+}
